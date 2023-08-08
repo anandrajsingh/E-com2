@@ -45,7 +45,7 @@
 .carousal{
     width: 100%;
 }
-.tCarousal{
+.tcarousal{
     padding: 2rem;
 }
 .testimonial{
@@ -61,9 +61,9 @@
     box-shadow: 0rem 1rem 3rem -50px #7d7d7d;
 }
 .testimonial>img{
-    position: absolute!important;
-    width: 3rem!important;
-    top: -1.5rem!important;
+    position: absolute;
+    width: 3rem;
+    top: -1.5rem;
     left: 45%;
 }
 .testimonial>span:nth-of-type(1){

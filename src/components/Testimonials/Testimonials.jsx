@@ -22,7 +22,7 @@ export default function Testimonials() {
             </div>
             <div className={css.reviews}>Reviews</div>
             <div className={css.carousal}>
-            <Swiper slidesPerView={3} slidesPerGroup={1} spaceBetween={20} className={css.tCarousal}>
+            <Swiper slidesPerView={3} slidesPerGroup={1} spaceBetween={20} className={css.tcarousal}>
                 {TestimonialsData.map((testimonial, i)=>(
                         <SwiperSlide>
                             <div className={css.testimonial}>
